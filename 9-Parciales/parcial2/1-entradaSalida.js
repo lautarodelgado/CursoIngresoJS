@@ -1,7 +1,14 @@
 //Debemos lograr mostrar un mensaje al presionar el botón  'MOSTRAR'.
 function Mostrar()
 {
-	alert("Funciona 1-EntradaSalida");
-	
+	var lado;
+	var superficie;
+
+	lado = document.getElementById('lado').value;
+
+	superficie = lado*3;
+
+	alert(superficie);
+
 }
 
