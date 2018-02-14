@@ -15,7 +15,10 @@ function Mostrar()
 	}
 	else
 	{
+		if(edad < 18 && estadoCivil != "Soltero")
+		{
 		console.log("NO HACER NADA");
+		}
 	}
 
 
