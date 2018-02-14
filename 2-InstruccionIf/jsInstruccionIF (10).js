@@ -1,17 +1,17 @@
 function Mostrar()
 {
 	//Genero el número RANDOM entre 1 y 10 
-	var numeroRandom;
+	var nota;
 
-	numeroRandom = Math.floor((Math.random() * 10 + 1));
+	nota = Math.floor((Math.random() * 10 + 1));
 
-	if(numeroRandom > 8)
+	if(nota > 8)
 	{
 		alert("EXCELENTE");
 	}
 	else
 	{
-		if(numeroRandom > 3)
+		if(nota > 3 && nota < 9)
 		{
 			alert("APROBÓ");
 		}
@@ -20,8 +20,28 @@ function Mostrar()
 			alert("Vamos, la proxima se puede");
 		}
 	}
+	
 
 
+	//OTRA FORMA DE HACERLO:
+	
+	/* 
+	if(nota > 8)
+	{
+		alert("EXCELENTE");
+	}
 
+	if(nota > 3 && nota < 9)
+	{
+		alert("APROBÓ");
+	}
+
+	if(nota < 4)
+	{
+		alert("Vamos, la proxima se puede");
+	}
+	*/
+
+	//console.log(nota);
 
 }//FIN DE LA FUNCIÓN
