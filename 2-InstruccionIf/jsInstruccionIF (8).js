@@ -13,14 +13,10 @@ function Mostrar()
 	{
 		alert("Es soltero y no es menor.");
 	}
-	else
+
+	if(edad < 18 && estadoCivil != "Soltero")
 	{
-		if(edad < 18 && estadoCivil != "Soltero")
-		{
-		console.log("NO HACER NADA");
-		}
+	console.log("NO HACER NADA");
 	}
-
-
 
 }//FIN DE LA FUNCIÓN
