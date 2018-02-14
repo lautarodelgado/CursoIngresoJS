@@ -9,17 +9,17 @@ function Mostrar()
 	{
 		alert("EXCELENTE");
 	}
+	else
+	{
+		if(numeroRandom > 3)
+		{
+			alert("APROBÓ");
+		}
 		else
 		{
-			if(numeroRandom > 3)
-			{
-				alert("APROBÓ");
-			}
-				else
-				{
-					alert("Vamos, la proxima se puede");
-				}
+			alert("Vamos, la proxima se puede");
 		}
+	}
 
 
 
