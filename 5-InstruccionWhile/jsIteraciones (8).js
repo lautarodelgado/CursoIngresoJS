@@ -9,10 +9,26 @@ function Mostrar()
 
 	while(respuesta == "si")
 	{
-		contador++;
 		numero = prompt("Ingrese un número:");
 		numero = parseInt(numero);
-		
+		contador++;
+
+
+		if(numero > 0)
+		{
+			positivo = positivo + numero;
+
+		}
+			else
+			{
+				if(numero < 0)
+				{
+					negativo = negativo*numero;
+				}
+			}
+
+		respuesta = prompt("Ingrese si para continuar");
+
 
 	}
 
