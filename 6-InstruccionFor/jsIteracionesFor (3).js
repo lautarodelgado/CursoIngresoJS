@@ -31,7 +31,12 @@ function Mostrar()
 			break;
 
 			case 3:
-			contador--; //el porcentaje que falta lo va a tirar en los otros numeros
+			var porcen=
+			if(porcen>7)
+			{
+				contador--;
+			}
+			 //el porcentaje que falta lo va a tirar en los otros numeros
 			contador3++;
 			break;
 
