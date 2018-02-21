@@ -31,7 +31,7 @@ function Mostrar()
 			break;
 
 			case 3:
-			var porcen=
+			var porcen= (contador3/100)*100;
 			if(porcen>7)
 			{
 				contador--;
