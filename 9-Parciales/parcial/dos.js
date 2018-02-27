@@ -1,19 +1,17 @@
+//Mostrar el importe final, pedir el precio y el porcentaje de descuento.
 function Mostrar()
 {
-  var importe;
-  var iva;
-  var importeFinal;
+	var precio;
+	var descuento;
+	var descuentoPorcentaje;
+	var precioFinal;
 
+	precio = prompt("Ingrese el precio");
+	descuento = prompt("Ingrese el descuento");
 
+	descuentoPorcentaje = (precio*descuento)/100;
 
-  importe = prompt("Importe:");
+	precioFinal = precio - descuentoPorcentaje;
 
-  importe = parseInt(importe);
-  iva = importe*0.21;
-
-  importeFinal = importe + iva;
-
-
-  document.getElementById('importeFinal').value = importeFinal;
-
+	document.getElementById('importeFinal').value = precioFinal;
 }

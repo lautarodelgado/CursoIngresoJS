@@ -1,5 +1,20 @@
+//
 function Mostrar()
 {
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*
 	var largo;
 	var ancho;
 	var perimetro;
@@ -12,6 +27,8 @@ function Mostrar()
 	perimetroPorTresHilos = perimetro*3;
 
 	alert("Se necesitan " + perimetroPorTresHilos + " metros de alambre.");
+
+	*/
 
 
 
