@@ -1,15 +1,15 @@
 
 function Mostrar()
 {
-	var lado;
+	var base;
 	var superficie;
 
-	lado = document.getElementById('laBase').value;
+	base = document.getElementById('laBase').value;
+	base = parseInt(base);
 
-	lado = parseInt(lado);
-	superficie = lado*lado;
+	superficie = base*base;
 
-	alert(superficie);
+	alert("La superficie del cuadraro es " + superficie);
 
 
 }

@@ -5,25 +5,25 @@ function Mostrar()
 	var sumaNumeros;
 
 	primerNumero = prompt("Ingrese un número:");
-	segundoNumero = prompt("Ingrese otro número");
-
 	primerNumero = parseInt(primerNumero);
+
+	segundoNumero = prompt("Ingrese otro número");
 	segundoNumero = parseInt(segundoNumero);
 
 	sumaNumeros = primerNumero + segundoNumero;
 
 	if(sumaNumeros > 0)
 	{
-		alert("positivo");
+		document.write("El resultado de la suma es positivo");
 	}
 		else
 		{
 			if(sumaNumeros < 0)
 			{
-				alert("negativo");
+				document.write("El resultado de la suma es negativo");
 			}
 			else
-				alert("neutro");
+				document.write("El resultado de la suma es 0");
 		}
 
 
