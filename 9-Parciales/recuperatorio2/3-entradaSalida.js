@@ -8,16 +8,15 @@ function Mostrar()
 
 
 	ancho = document.getElementById('ancho').value;
-	largo = document.getElementById('largo').value;
-
 	ancho = parseInt(ancho);
+	largo = document.getElementById('largo').value;
 	largo = parseInt(largo);
 
 	perimetro = largo*2 + ancho*2;
 
 	alambreTotal = perimetro * 6;
 
-	alert(alambreTotal);
+	alert("Los metros de alambre necesarios son " + alambreTotal);
 
 
 

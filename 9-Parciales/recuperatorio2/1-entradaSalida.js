@@ -8,7 +8,7 @@ function Mostrar()
 
 	perimetro = base*3;
 
-	alert(perimetro);
+	alert("El perímetro del triángulo equilátero es " + perimetro);
 	
 }
 

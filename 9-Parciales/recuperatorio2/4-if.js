@@ -5,24 +5,23 @@ function Mostrar()
 	var numeroDos;
 
 	numeroUno = prompt("Escriba un numero:");
-	numeroDos = prompt("Escriba otro numero:");
-
 	numeroUno = parseInt(numeroUno);
+	numeroDos = prompt("Escriba otro numero:");
 	numeroDos = parseInt(numeroDos);
 
 	if(numeroUno == numeroDos)
 	{
-		alert(numeroUno*numeroDos);
+		document.write(numeroUno*numeroDos);
 	}
 		else
 		{
 			if(numeroUno > numeroDos)
 			{
-				alert(numeroUno - numeroDos);
+				document.write(numeroUno - numeroDos);
 			}
 				else
 				{
-					alert(numeroUno + numeroDos);
+					document.write(numeroUno + numeroDos);
 				}
 		}
 

@@ -8,16 +8,10 @@ function Mostrar()
 	importe = prompt("ingrese el importe:");
 
 	importe = parseInt(importe);
-	iva = parseInt(iva);
 
 	iva = importe*0.21;
 	importeFinal = importe + iva;
 
-	alert(importeFinal);
-
-	
-
-			
-	
+	alert("El importe del producto con iva es " + importeFinal);
 }
 
